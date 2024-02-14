@@ -14,7 +14,7 @@ function Highlights() {
           <div className={classes.card}>
             <p className={classes.id}>{item.id}</p>
             <p className={classes.title}>{item.title}</p>
-            <p className={classes.paraf}>{item.para}</p>
+            <p className={classes.para}>{item.para}</p>
           </div>
         ))}
       </div>

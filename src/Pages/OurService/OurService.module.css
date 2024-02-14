@@ -91,7 +91,7 @@
   margin-right: 20px;
   transition: clip-path 0.5s ease;
 }
-.caraouselContainer{
+.caraouselContainer {
   padding-top: 100px;
   padding-bottom: 200px;
   background-color: black;
@@ -99,8 +99,8 @@
 .crop_image:hover {
   clip-path: none;
 }
-.border{
-  border: 2px solid rgba(255, 255, 255, 1)
+.border {
+  border: 2px solid rgba(255, 255, 255, 1);
 }
 @media screen and (max-width: 1440px) {
   .container {
@@ -153,6 +153,38 @@
   .navbar.show {
     display: block; /* Show navbar when showLinks is true */
   }
+  .heading3 {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: -0.05em;
+    text-align: center;
+  }
+  .heading2 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: -0.05em;
+    text-align: center;
+  }
+  .card {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .designSystem {
+    height: 228px;
+    margin-left: 150px;
+    margin-right: 102px;
+    padding: 2%;
+  }
+  .cardHighlighted {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+  }
 }
 
 @media only screen and (max-width: 744px) {
@@ -165,16 +197,52 @@
   .text {
     font-size: 40px;
     font-weight: 400;
-    line-height: 50px;
+
     letter-spacing: -0.05em;
     text-align: left;
   }
   .para {
     font-size: 20px;
     font-weight: 300;
-    line-height: 32px;
+
     letter-spacing: 0em;
     text-align: left;
+  }
+  .heading2 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .designSystem {
+    height: 228px;
+    margin-left: 52px;
+    margin-right: 52px;
+    padding: 2%;
+    max-width: 640px;
+    margin-bottom: 10;
+    min-height: 132px;
+  }
+  .cardHighlighted {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .card {
+    padding-left: 15px;
+    line-height: 20px;
   }
 }
 

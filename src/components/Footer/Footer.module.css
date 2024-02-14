@@ -224,15 +224,12 @@
 @media screen and (max-width: 1024px) {
   .footer {
     background-color: rgba(4, 4, 4, 1);
-  
+    flex-wrap: wrap;
   }
-  .socialMedia {
-   
-  }
+
   .socialMediaText {
-    font-size: 36px;
-    font-weight: 400;
-    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+    font-weight: 300;
   }
   .cont1 {
     padding-left: 162px;
@@ -244,76 +241,66 @@
   }
 
   .address {
-    padding-top: 0;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 300;
-    line-height: 32px;
+    line-height: 28px;
     letter-spacing: 0em;
     text-align: left;
-    color: rgba(255, 255, 255, 1);
-    max-width: 280px;
-    max-height: 67px;
   }
   .map {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 22px;
     letter-spacing: 0em;
     text-align: left;
-    color: rgba(255, 255, 255, 1);
-    padding-top: 3%;
   }
   .menuList {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 300;
-    line-height: 32px;
+    line-height: 28px;
     letter-spacing: 0em;
     text-align: left;
-    color: rgba(255, 255, 255, 1);
-    text-decoration: none;
   }
   .cont2 {
+    min-width: 108px;
     margin-left: 100px;
     padding-top: 5%;
   }
   .cont3 {
+    min-width: 147px;
     margin-left: 100px;
     padding-top: 5%;
   }
   .cont4 {
-    margin-left: 100px;
-    padding-top: 5%;
+    display: none;
+  }
+  .cont4updated {
+    padding-left: 162px;
+    margin-top: 72px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
   .contact {
-    padding: 0;
-    margin: 0%;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 300;
-    line-height: 32px;
+    line-height: 28px;
     letter-spacing: 0em;
     text-align: left;
-    color: rgba(255, 255, 255, 1);
   }
   .domain {
-    margin: 0%;
-
-    padding: 0%;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 28px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
     letter-spacing: 0em;
     text-align: left;
-    color: rgba(163, 163, 163, 1);
   }
   .copyright {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
-    line-height: 28px;
+    line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    color: rgba(163, 163, 163, 1);
-    padding-left: 162px;
-    padding-top: 0%;
   }
   .line {
     margin-top: 4%;
@@ -321,9 +308,93 @@
     height: 2px; /* Set the height of the hr */
     border: none; /* Remove the default border */
   }
+  .cont42 {
+    padding-left: 100px;
+  }
 }
 
 @media only screen and (max-width: 744px) {
+  .footer {
+    background-color: rgba(4, 4, 4, 1);
+    padding-top: 50px;
+  }
+  .cont1 {
+    padding-left: 65px;
+  }
+  .con2 {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .cont3 {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 450px;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .cont4updated {
+    position: absolute;
+    margin-top: 40%;
+    padding-left: 65px;
+    display: flex;
+    flex-direction: column;
+  }
+  .cont42 {
+    padding-top: 15px;
+    padding-left: 0;
+  }
+  .address {
+    margin: 0;
+    width: 344px;
+    height: 83px;
+    color: rgba(163, 163, 163, 1);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .map {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .socialMediaText {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .socialMedia {
+    padding-left: 62px;
+    padding-right: 62px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .line {
+    margin-top: 12%;
+  }
+  .copyright {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(163, 163, 163, 1);
+    padding-left: 64px;
+  }
 }
 
 @media only screen and (max-width: 390px) {

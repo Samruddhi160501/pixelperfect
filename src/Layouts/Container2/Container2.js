@@ -14,23 +14,35 @@ function Container2() {
           <Card1 i={data.i} title={data.title} />
         ))}
       </div>
-      <hr
-        style={{
-          width: "60px",
-          border: "2px solid rgba(4, 4, 4, 1)",
-          marginTop: "5%",
-          textAlign: "center",
-        }}
-      ></hr>
+      {window.innerWidth <= 744 ? (
+        <hr
+          style={{
+            display:"none",
+            width: "60px",
+            border: "2px solid rgba(4, 4, 4, 1)",
+            marginTop: "5%",
+            textAlign: "center",
+          }}
+        ></hr>
+      ) : (
+        <hr
+          style={{
+            width: "60px",
+            border: "2px solid rgba(4, 4, 4, 1)",
+            marginTop: "5%",
+            textAlign: "center",
+          }}
+        ></hr>
+      )}
 
       <h1 className={classes.heading2}>
-        Our proven methodology for Design Systems.{" "}
+        Our proven methodology for Design Systems.
       </h1>
       <p className={classes.para2}>
         Redesigning a design system is a densely strategised process that
         involves careful planning, collaboration, and iterative refinement.
       </p>
-      <Carousel/>
+      <Carousel />
     </div>
   );
 }

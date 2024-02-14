@@ -1,9 +1,4 @@
-.carousel {
-  position: relative;
-  width: 100%;
-  margin: 0;
 
-}
 .crop_image {
   max-width: 400px;
   margin-right: 20px;
@@ -43,4 +38,20 @@ button {
   padding: 5px 10px;
   margin-top: 10px;
   font-family: "Haffer SQ XH";
+}
+@media screen and (max-width: 744px) {
+  .carousel{
+    padding-top: 35px;
+    padding-left: 64px;
+  }
+  .crop_image{
+   max-width: 310px;
+  }
+  .arrowcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 5px;
+    padding-right: 5%;
+  }
 }

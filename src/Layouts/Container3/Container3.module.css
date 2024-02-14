@@ -5,11 +5,10 @@
   text-align: start;
   display: flex;
   flex-direction: row;
-  font-family: 'Haffer SQ XH';
-
+  font-family: "Haffer SQ XH";
 }
-.con{
-    padding-top: 100px;
+.con {
+  padding-top: 100px;
 }
 .heading {
   margin: 0%;
@@ -45,6 +44,64 @@
   margin-top: 5%;
 }
 .imgvector {
-    margin-left: 10%;
+  margin-left: 10%;
   overflow: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+  .heading {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.05em;
+    text-align: left;
+  }
+  .para {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: start;
+  }
+  .connectbtn {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .container {
+    padding-left: 64px;
+    padding-bottom: 64px;
+    max-height: 268px;
+    min-height: 268px;
+
+  }
+  .con {
+    padding-top: 60px;
+  }
+  .heading {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: -0.03em;
+    text-align: left;
+  }
+  .para {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .connectbtn {
+    text-align: center;
+    height: 48px;
+  }
+  .imgvector {
+    margin-left: 10px;
+    overflow: hidden;
+    min-width: 256px;
+    min-height:300px;
+    
+  }
 }

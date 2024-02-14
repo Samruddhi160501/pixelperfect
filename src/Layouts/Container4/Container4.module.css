@@ -34,7 +34,6 @@
 }
 .heading {
   margin: 0;
-
   color: rgba(255, 255, 255, 1);
   font-size: 48px;
   font-weight: 400;
@@ -120,6 +119,41 @@
 }
 
 @media only screen and (max-width: 744px) {
+  .container {
+    padding-bottom: 50px;
+    padding-left: 64x;
+    padding-right: 64px;
+    min-height: 370px;
+    font-family: "Haffer SQ XH";
+  }
+  .leftContainer {
+    padding-bottom: 0px;
+    padding-top: 100px;
+    height: 340px;
+    gap: 24px;
+    text-align: left;
+    min-width: 296px;
+    min-height: 216px;
+  }
+  .heading {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    max-width: 296px;
+  }
+  .para {
+    display: none;
+  }
+  .img {
+    width: 280px;
+    height: 370px;
+    margin-left: 0;
+  }
+  .btn {
+    margin-top: 12%;
+  }
 }
 
 @media only screen and (max-width: 390px) {
