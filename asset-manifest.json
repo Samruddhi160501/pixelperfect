@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/pixelperfect/static/css/main.78c5e237.css",
+    "main.js": "/pixelperfect/static/js/main.eb4337cc.js",
+    "static/js/592.91e0fcf7.chunk.js": "/pixelperfect/static/js/592.91e0fcf7.chunk.js",
+    "static/media/Image2.png": "/pixelperfect/static/media/Image2.0ab76a5d20419a771f13.png",
+    "static/media/HafferSQTRIALVF.ttf": "/pixelperfect/static/media/HafferSQTRIALVF.0423ac1191e3db1ca33e.ttf",
+    "static/media/Phase2.png": "/pixelperfect/static/media/Phase2.4cebfb0ba4714f95b4b6.png",
+    "static/media/Phase3.png": "/pixelperfect/static/media/Phase3.016b234719dc0a6e4223.png",
+    "static/media/Phase5.png": "/pixelperfect/static/media/Phase5.f43c9aceee74706e96b8.png",
+    "static/media/Phase0.png": "/pixelperfect/static/media/Phase0.92f203ea3352de768e1c.png",
+    "static/media/Phase1.png": "/pixelperfect/static/media/Phase1.f54c0258b6a5d776fb26.png",
+    "static/media/Phase4.png": "/pixelperfect/static/media/Phase4.2ffaeae4034ec4c6bc58.png",
+    "static/media/photo1.png": "/pixelperfect/static/media/photo1.2a51737d4864dcea9353.png",
+    "static/media/Illustartion.png": "/pixelperfect/static/media/Illustartion.f683b6165d7a860d547d.png",
+    "index.html": "/pixelperfect/index.html",
+    "main.78c5e237.css.map": "/pixelperfect/static/css/main.78c5e237.css.map",
+    "main.eb4337cc.js.map": "/pixelperfect/static/js/main.eb4337cc.js.map",
+    "592.91e0fcf7.chunk.js.map": "/pixelperfect/static/js/592.91e0fcf7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78c5e237.css",
+    "static/js/main.eb4337cc.js"
+  ]
+}
