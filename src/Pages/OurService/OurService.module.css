@@ -2,6 +2,7 @@
   margin: 0%;
   font-family: "Haffer SQ XH";
   padding: 0%;
+  width: 100%;
 }
 .heading {
   background-color: rgba(4, 4, 4, 1);
@@ -102,6 +103,12 @@
   border: 2px solid rgba(255, 255, 255, 1)
 }
 @media screen and (max-width: 1440px) {
+  .container {
+    margin: 0%;
+    font-family: "Haffer SQ XH";
+    padding: 0%;
+    width: 100%;
+  }
   .heading {
     padding-left: 190px;
     padding-right: 190px;

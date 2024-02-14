@@ -7,7 +7,7 @@ function Footer() {
     <div className={classes.footer}>
       <div className={classes.socialMedia}>
         {socialMedia.map((item) => (
-          <li className={classes.socialMediaText}>{item}</li>
+          <li key={item} className={classes.socialMediaText}>{item}</li>
         ))}
       </div>
       <div style={{ display: "flex", flexDirection: "row" }}>

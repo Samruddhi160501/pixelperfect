@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Container4.module.css";
-import illustration from "../assets/Illustartion.png";
+import illustration from "../../assets/Illustartion.png";
 function Container4() {
   return (
     <div className={classes.container}>
