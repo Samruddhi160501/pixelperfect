@@ -1,0 +1,46 @@
+.carousel {
+  position: relative;
+  width: 100%;
+  margin: 0;
+
+}
+.crop_image {
+  max-width: 400px;
+  margin-right: 20px;
+  transition: clip-path 0.5s ease;
+  clip-path: polygon(0 0, 100% 0, 100% 60%, 0% 60%);
+}
+
+.crop_image:hover {
+  clip-path: none;
+}
+.arrowcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 1%;
+  padding-right: 5%;
+}
+
+.slider {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 162px;
+}
+
+.slide {
+  max-width: 30%;
+}
+
+.slide:hover {
+  flex: 1; /* Show full image on hover */
+  transform: scale(1.1); /* Optional: Scale up the image on hover */
+}
+
+button {
+  cursor: pointer;
+  padding: 5px 10px;
+  margin-top: 10px;
+  font-family: "Haffer SQ XH";
+}

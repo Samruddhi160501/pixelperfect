@@ -1,0 +1,126 @@
+.container {
+  background-color: rgba(4, 4, 4, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 38px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 38px;
+  border-bottom: 1px solid rgba(51, 51, 51, 1);
+  font-family: 'Haffer SQ XH';
+
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  max-height: 16.23px;
+  max-width: 48px;
+}
+
+.logo {
+  /* max-height: 33.37px; */
+  width: 206.41px;
+  margin-left: 17.56px;
+}
+
+.navbar {
+  text-align: center;
+  background-color: rgba(26, 26, 30, 1);
+  border-radius: 100px;
+}
+
+.link {
+  text-decoration: none;
+  padding: 11px 32px;
+  margin: 0 8px; /* Adjust margin */
+  border-radius: 100px;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.link:hover {
+  margin-top: 4px;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.btn {
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 100px;
+  padding: 10px 32px;
+  background-color: rgba(4, 4, 4, 1);
+  color: white;
+}
+
+@media only screen and (max-width: 1440px) {
+  /* Styles for 1440px and below */
+  .navbar {
+    width: (608px);
+    height: (56px);
+    top: 20px;
+    left: 416px;
+    padding: 4px;
+    border-radius: 100px;
+  }
+  .link {
+    font-size: auto;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  /* Styles for 1024px and below */
+  .navbar {
+    display: none; /* Hide navbar by default */
+  }
+
+  .navbar.show {
+    display: block; /* Show navbar when showLinks is true */
+  }
+}
+
+@media only screen and (max-width: 744px) {
+  /* Styles for 744px and below */
+}
+
+@media only screen and (max-width: 390px) {
+  /* Styles for 390px and below */
+  .btn {
+    display: none;
+  }
+  .menu2 {
+    width: 36px;
+    height: 36px;
+    top: 20px;
+    left: 330px;
+  }
+}
+.dropdownContent {
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.dropdownLink {
+  display: block;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.dropdownLink:hover {
+  background-color: #f0f0f0;
+}
+

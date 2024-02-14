@@ -1,0 +1,115 @@
+.footer {
+  background-color: rgba(4, 4, 4, 1);
+  padding-top: 100px;
+  margin: 0;
+  padding-bottom: 2%;
+  border-top: 2px solid rgba(31, 31, 31, 1);
+  border-bottom: 2px solid rgba(31, 31, 31, 1);
+  
+  font-family: 'Haffer SQ XH';
+
+}
+.socialMedia {
+  padding-left: 162px;
+  padding-right: 162px; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+.socialMediaText {
+  font-size: 36px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+.cont1 {
+  padding-left: 162px;
+  display: block;
+  flex-direction: column;
+  max-width: 338px;
+  text-align: left;
+  padding-top: 5%;
+}
+.logofooter {
+  /* width: 288.91px;
+  height: 46.72px;
+  padding: 0px, 0px, 0px, 0px; */
+}
+.address {
+  padding-top: 0;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  max-width: 280px;
+  max-height: 67px;
+}
+.map {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  padding-top: 3%;
+}
+.menuList {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+.cont2 {
+  margin-left: 100px;
+  padding-top: 5%;
+}
+.cont3 {
+  margin-left: 100px;
+  padding-top: 5%;
+}
+.cont4 {
+  margin-left: 100px;
+  padding-top: 5%;
+}
+.contact {
+  padding: 0;
+  margin: 0%;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+.domain {
+  margin: 0%;
+
+  padding: 0%;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(163, 163, 163, 1);
+}
+.copyright {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(163, 163, 163, 1);
+  padding-left: 162px;
+  padding-top: 0%;
+}
+.line {
+  margin-top: 4%;
+  background-color: rgba(31, 31, 31, 1);
+  height: 2px; /* Set the height of the hr */
+  border: none; /* Remove the default border */
+}
