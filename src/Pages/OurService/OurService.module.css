@@ -1,6 +1,7 @@
 .container {
   margin: 0%;
   font-family: "Haffer SQ XH";
+  padding: 0%;
 }
 .heading {
   background-color: rgba(4, 4, 4, 1);
@@ -18,7 +19,7 @@
   font-size: 74px;
   font-size: 74px;
   font-weight: 400;
-  line-height: 84px;
+  /* line-height: 84px; */
   letter-spacing: -0.05em;
   text-align: center;
   color: rgba(255, 255, 255, 1);
@@ -32,12 +33,7 @@
   text-align: center;
   color: rgba(163, 163, 163, 1);
 }
-.photo1 {
-  margin-top: 528px;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
+
 .designSystem {
   background-color: rgba(255, 255, 255, 1);
   text-align: center;
@@ -46,6 +42,7 @@
   margin-right: 290px;
   margin-bottom: 0;
   padding: 0;
+  max-width: 70%;
 }
 .line {
   border: 2px solid rgba(4, 4, 4, 1);
@@ -58,19 +55,16 @@
   line-height: 60px;
   letter-spacing: -0.05em;
 }
-.designContainer{
+.designContainer {
   padding-top: 15px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding-bottom: 0;
 }
 .card {
-  
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
 
 .cardHighlighted {
@@ -79,12 +73,34 @@
   justify-content: space-around;
   padding-left: 10%;
   padding-right: 10%;
-  border-left: 1px solid rgba(224, 224, 224, 1); 
-  border-right: 1px solid rgba(224, 224, 224, 1); 
-  
+  border-left: 1px solid rgba(224, 224, 224, 1);
+  border-right: 1px solid rgba(224, 224, 224, 1);
 }
-
-
+.heading3 {
+  font-family: "Haffer SQ XH";
+  font-size: 74px;
+  font-weight: 400;
+  line-height: 84px;
+  letter-spacing: -0.05em;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+.crop_image {
+  max-width: 70%;
+  margin-right: 20px;
+  transition: clip-path 0.5s ease;
+}
+.caraouselContainer{
+  padding-top: 100px;
+  padding-bottom: 200px;
+  background-color: black;
+}
+.crop_image:hover {
+  clip-path: none;
+}
+.border{
+  border: 2px solid rgba(255, 255, 255, 1)
+}
 @media screen and (max-width: 1440px) {
   .heading {
     padding-left: 190px;

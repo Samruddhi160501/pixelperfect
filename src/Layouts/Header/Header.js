@@ -24,12 +24,6 @@ function Header() {
   return (
     <div className={classes.container}>
       <div className={classes.left}>
-        {isTab ? (
-          <img src={logo2} alt="logo" className={classes.logo2} />
-        ) : (
-          <img src={logo} alt="logo" className={classes.logo} />
-        )}
-      </div>
       {isMobile ? (
         <div className={classes.right}>
           <img src={menu} alt="menu" className={classes.menu} />
@@ -39,6 +33,13 @@ function Header() {
           <img src={menu} alt="menu" className={classes.menu} />
         </div>
       )}
+        {isTab ? (
+          <img src={logo2} alt="logo" className={classes.logo2} />
+        ) : (
+          <img src={logo} alt="logo" className={classes.logo} />
+        )}
+      </div>
+     
       <nav className={`${classes.navbar} ${showLinks ? classes.show : ""}`}>
         <ul>
           <Link to="/company" className={classes.link}>
