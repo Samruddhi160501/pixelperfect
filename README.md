@@ -18,7 +18,6 @@ Add the live website link here: [Live Website](https://pixelperfect-71b82.web.ap
 
 ![Screenshot 1](src/assets/ss1.JPG)
 ![Screenshot 2](src/assets/ss2.JPG)
-![Screenshot 3](src/assets/ss3.png)
 ![Screenshot 4](src/assets/ss4.JPG)
 ![Screenshot 5](src/assets/ss5.JPG)
 
