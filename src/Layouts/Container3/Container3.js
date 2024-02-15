@@ -1,6 +1,5 @@
 import React from "react";
 import classes from "./Container3.module.css";
-import vector1 from "../../assets/Vector1.png";
 import vector2 from  "../../assets/Vector2.png";
 export default function Container3() {
   return (
@@ -13,7 +12,6 @@ export default function Container3() {
         <button className={classes.connectbtn}>Connect now</button>
       </div>
       <img src={vector2} alt="vector" className={classes.imgvector}></img>
-      {/* <img src={vector1} alt="vector" className={classes.imgvector2}></img> */}
 
     </div>
   );

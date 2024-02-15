@@ -157,4 +157,30 @@
 }
 
 @media only screen and (max-width: 390px) {
+  .container {
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+  }
+  .heading {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: -0.05em;
+    text-align: left;
+  }
+  .img {
+    max-width: 342px;
+    max-height: 460px;
+    width: 342px;
+  }
+  .leftContainer{
+   max-height: 50px;
+
+  }
+  .small{
+    padding-top: 0%;
+  }
 }

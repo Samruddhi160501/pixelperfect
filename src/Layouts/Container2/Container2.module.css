@@ -132,4 +132,22 @@
     letter-spacing: -0.05em;
     text-align: left;
   }
+  .heading2 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    padding-left: 24px;
+    padding-top: 110%;
+  }
+  .para2 {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
 }

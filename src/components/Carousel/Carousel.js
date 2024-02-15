@@ -13,6 +13,7 @@ const images = [phase0, phase1, phase2, phase3, phase4, phase5];
 function Carousel() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const isSmallScreen = window.innerWidth <= 744;
+  const isMobileScreen = window.innerWidth <= 390;
 
   const handlePrev = () => {
     setCurrentImageIndex((prevIndex) =>
@@ -32,7 +33,9 @@ function Carousel() {
         position: "relative",
         maxWidth: "100%",
         overflow: "hidden",
-        paddingLeft: `${isSmallScreen ? "64px" : "167px"}`,
+        paddingLeft: `${
+          isSmallScreen ? "64px" : isMobileScreen ? "24px" : "167px"
+        }`,
         paddingTop: "2%",
         display: "flex",
         flexDirection: "column",

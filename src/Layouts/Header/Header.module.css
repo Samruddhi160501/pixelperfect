@@ -107,6 +107,11 @@
   .navbar.show {
     display: block; /* Show navbar when showLinks is true */
   }
+  .tab{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+  }
 }
 
 @media only screen and (max-width: 744px) {

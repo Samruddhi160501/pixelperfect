@@ -46,7 +46,9 @@ function OurService() {
         className={classes.designSystem}
         style={{ position: "relative", zIndex: 2 }}
       >
-        <h3 className={classes.heading2}>{isSmallScreen?"This is ideal for":"Design Systems are ideal for :"}</h3>
+        <h3 className={classes.heading2}>
+          {isSmallScreen ? "This is ideal for" : "Design Systems are ideal for"}
+        </h3>
         <hr className={classes.line} />
         <div className={classes.designContainer}>
           {designmenu.map((item) => (

@@ -398,4 +398,73 @@
 }
 
 @media only screen and (max-width: 390px) {
+  .socialMediaText {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 50%;
+    padding-bottom: 5px;
+  }
+  .socialMedia {
+    justify-content: space-between;
+    padding-left: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-height: 116px;
+    max-width: 275px;
+    padding-top: 50px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+  }
+  .logofooter {
+    max-width: 240px;
+  }
+
+  .menuList {
+    padding-left: 24px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+  }
+  .add {
+    padding-left: 24px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 50px;
+  }
+  .address {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 24px;
+  }
+  .map {
+    padding-left: 24px;
+  }
+  .copyright {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 24px;
+
+  }
+
 }

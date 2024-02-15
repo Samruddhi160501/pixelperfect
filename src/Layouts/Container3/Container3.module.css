@@ -74,7 +74,6 @@
     padding-bottom: 64px;
     max-height: 268px;
     min-height: 268px;
-
   }
   .con {
     padding-top: 60px;
@@ -101,7 +100,23 @@
     margin-left: 10px;
     overflow: hidden;
     min-width: 256px;
-    min-height:300px;
-    
+    min-height: 300px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .heading {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    max-width: 342px;
+  }
+  .container{
+    padding-left: 24px;
+    padding-right: 24px;
+    flex-direction: column;
+    flex-wrap: wrap;
+
   }
 }
