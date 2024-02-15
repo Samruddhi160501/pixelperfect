@@ -11,7 +11,7 @@ function Highlights() {
       </p>
       <div className={classes.cardcontainer}>
         {highlight.map((item) => (
-          <div className={classes.card}>
+          <div className={classes.card} key={item.id}>
             <p className={classes.id}>{item.id}</p>
             <p className={classes.title}>{item.title}</p>
             <p className={classes.para}>{item.para}</p>

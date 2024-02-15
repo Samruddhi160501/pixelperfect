@@ -11,7 +11,7 @@ function Container2() {
       </h1>
       <div className={classes.card}>
         {data1.map((data) => (
-          <Card1 i={data.i} title={data.title} />
+          <Card1 i={data.i} title={data.title} key={data.id}/>
         ))}
       </div>
       {window.innerWidth <= 744 ? (
