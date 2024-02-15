@@ -8,17 +8,17 @@ Add the live website link here: [Live Website](https://pixelperfect-71b82.web.ap
 
 ## Folder Structure
 
-Assets Folder: Contains all the images and other static assets used in the project.
-Layouts Folder: Includes different layout components like containers, headers, footers, etc.
-Components Folder: Contains reusable components like cards, carousels, buttons, etc.
-Pages Folder: Includes individual page components like service page and other pages of your website.
-Utils Folder: Contains utility functions, constants, or data used across the project.
+1. Assets Folder: Contains all the images and other static assets used in the project.
+2. Layouts Folder: Includes different layout components like containers, headers, footers, etc.
+3. Components Folder: Contains reusable components like cards, carousels, buttons, etc.
+4. Pages Folder: Includes individual page components like service page and other pages of your website.
+5. Utils Folder: Contains utility functions, constants, or data used across the project.
 
 ## Scrrenshots
 
 ![Screenshot 1](src/assets/ss1.JPG)
 ![Screenshot 2](src/assets/ss2.JPG)
-![Screenshot 3](src/assets/ss3.JPG)
+![Screenshot 3](src/assets/ss3.png)
 ![Screenshot 4](src/assets/ss4.JPG)
 ![Screenshot 5](src/assets/ss5.JPG)
 
@@ -38,9 +38,14 @@ To get a local copy up and running follow these simple steps.
    git clone https://github.com/yourusername/your-repo.git
    ```
 2. Install NPM packages
+   ```sh
    npm install
+   ```
+
 3. Run the app in development mode
+   ```sh
    npm start
+   ```
 4. Open http://localhost:3000 to view it in your browser.
 
 ## Recommendations
