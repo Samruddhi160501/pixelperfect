@@ -3,7 +3,7 @@ import { highlight } from "../../utils/data";
 import classes from "./Highlits.module.css";
 function Highlights() {
   return (
-    <div className={classes.container}>
+    <div className={classes.container} data-testid="highlights">
       <p className={classes.heading}>Design system process highlights:</p>
       <p className={classes.heading2}>
         A Design System redesign roadmap has to be delicately handled and marked

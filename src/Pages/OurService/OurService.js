@@ -30,7 +30,7 @@ function OurService() {
   };
 
   return (
-    <div className={classes.container}>
+    <div className={classes.container} data-testid="our-service-component">
       <Header />
       <div className={classes.heading}>
         <h1 className={classes.text}>Design Systems for scale</h1>

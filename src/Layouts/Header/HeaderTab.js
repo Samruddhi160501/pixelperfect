@@ -17,7 +17,7 @@ function HeaderTab() {
     };
   }, []);
   return (
-    <>
+    <div data-testid="header-tab">
       {isMobile ? (
         <div
           className={classes.container}
@@ -48,7 +48,7 @@ function HeaderTab() {
           <button className={classes.btn}>Engage Us</button>
         </div>
       )}
-    </>
+    </div>
   );
 }
 

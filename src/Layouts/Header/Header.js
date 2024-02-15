@@ -31,16 +31,16 @@ function Header() {
           </div>
           <nav className={`${classes.navbar} ${showLinks ? classes.show : ""}`}>
             <ul>
-              <Link to="/company" className={classes.link}>
+              <Link className={classes.link}>
                 The Company
               </Link>
-              <Link to="/services" className={classes.link}>
+              <Link  className={classes.link}>
                 Our Services
               </Link>
-              <Link to="/expertise" className={classes.link}>
+              <Link  className={classes.link}>
                 Our Expertise
               </Link>
-              <Link to="/clientwork" className={classes.link}>
+              <Link  className={classes.link}>
                 Client Work
               </Link>
             </ul>

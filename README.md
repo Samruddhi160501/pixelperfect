@@ -37,6 +37,7 @@ To get a local copy up and running follow these simple steps.
    git clone https://github.com/yourusername/your-repo.git
    ```
 2. Install NPM packages
+
    ```sh
    npm install
    ```
@@ -47,7 +48,18 @@ To get a local copy up and running follow these simple steps.
    ```
 4. Open http://localhost:3000 to view it in your browser.
 
+### unit tests
+
+1. written one Component Rendering Test to check the responsiveness of the header component at 390px,
+2. to run test use below command
+   ```sh
+   npm test
+   ```
+
+```
+
 ## Recommendations
 
 For a better user experience, use Firefox.
 Make sure to test the responsiveness of website on different devices.
+```
