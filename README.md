@@ -56,10 +56,8 @@ To get a local copy up and running follow these simple steps.
    npm test
    ```
 
-```
-
 ## Recommendations
 
 For a better user experience, use Firefox.
 Make sure to test the responsiveness of website on different devices.
-```
+
