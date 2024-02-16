@@ -33,7 +33,7 @@ function FloatContainer() {
             }
           >
             <p>{item.id}</p>
-            <p >{item.text}</p>
+            <p className={classes.floatText}>{item.text}</p>
           </div>
         ))}
       </div>

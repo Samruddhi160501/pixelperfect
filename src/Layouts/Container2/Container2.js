@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import classes from "./Container2.module.css";
-import { data1 } from "../../utils/data";
+import { data1 ,SMALL} from "../../utils/data";
 import Card1 from "../../components/cards/Card1";
 import Carousel from "../../components/Carousel/Carousel";
 function Container2() {
@@ -50,7 +50,7 @@ function Container2() {
         Redesigning a design system is a densely strategised process that
         involves careful planning, collaboration, and iterative refinement.
       </p>
-      <Carousel />
+      <Carousel container={SMALL} />
     </div>
   );
 }

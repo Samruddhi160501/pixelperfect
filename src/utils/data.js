@@ -46,7 +46,7 @@ export const highlight = [
     title: "Brand-centric DLS.",
     para: "To reinforce the brand's visual identity, values and tone of voice,  we build consistency in the use of brand colours, typography, and imagery, coupled with intuitive interactions to foster brand affinity and loyalty across all touchpoints.",
   },
-   {
+  {
     id: "/03",
     title: "Design principles and guidelines.",
     para: "Based on design trends, research outcomes and brand essence, we identify core values, guidelines and themes that drive the design creation process and craft an experience that is unique to the brand for its users.",
@@ -68,17 +68,19 @@ export const highlight = [
   },
 ];
 
-export const designmenu=[
+export const designmenu = [
   {
-    id:"/01",
-    text:"Websites, apps and products"
+    id: "/01",
+    text: "Websites, apps and products",
   },
   {
-    id:"/02",
-    text:"Product teams"
+    id: "/02",
+    text: "Product teams",
   },
   {
-    id:"/03",
-    text:"SaaS and Enterprise start-ups"
-  }
-]
+    id: "/03",
+    text: "SaaS and Enterprise start-ups",
+  },
+];
+export const SMALL = "small";
+export const BIG = "big";

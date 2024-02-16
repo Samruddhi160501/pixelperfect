@@ -1,4 +1,3 @@
-
 .crop_image {
   max-width: 400px;
   margin-right: 20px;
@@ -17,35 +16,24 @@
   padding-right: 5%;
 }
 
-.slider {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding-left: 162px;
-}
-
-.slide {
-  max-width: 30%;
-}
-
-.slide:hover {
-  flex: 1; /* Show full image on hover */
-  transform: scale(1.1); /* Optional: Scale up the image on hover */
-}
-
 button {
   cursor: pointer;
   padding: 5px 10px;
   margin-top: 10px;
   font-family: "Haffer SQ XH";
 }
+.image {
+  max-width: 70%;
+  margin-right: 20px;
+  transition: clip-path 0.5s ease;
+}
 @media screen and (max-width: 744px) {
-  .carousel{
+  .carousel {
     padding-top: 35px;
     padding-left: 64px;
   }
-  .crop_image{
-   max-width: 310px;
+  .crop_image {
+    max-width: 310px;
   }
   .arrowcontainer {
     display: flex;
@@ -53,5 +41,10 @@ button {
     justify-content: flex-end;
     margin-top: 5px;
     padding-right: 5%;
+  }
+}
+@media screen and (max-width: 391px) {
+  .image {
+    min-height: 300px;
   }
 }
