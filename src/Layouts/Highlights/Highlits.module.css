@@ -129,7 +129,7 @@
     justify-content: space-between;
   }
   .heading {
-    min-width: 700px;
+    min-width: max-content;
     padding: 0;
     margin: 0;
     font-size: 48px;
