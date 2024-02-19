@@ -101,9 +101,12 @@
   .contianer {
     min-width: 235px;
     max-height: 108px;
+    padding-left: 2%;
   }
   .contianerHighlighted {
     min-width: 235px;
+    padding-left: 2%;
+
     max-height: 108px;
   }
   .heading {

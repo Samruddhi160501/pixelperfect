@@ -2,7 +2,7 @@
   background-color: rgba(4, 4, 4, 1);
   padding-top: 10%;
   margin: 0;
-  padding-bottom: 2%;
+  padding-bottom: 5%;
   border-top: 2px solid rgba(31, 31, 31, 1);
   border-bottom: 2px solid rgba(31, 31, 31, 1);
   font-family: "Haffer SQ XH";
@@ -290,6 +290,9 @@
     background-color: rgba(4, 4, 4, 1);
     padding-top: 50px;
     flex-wrap: wrap;
+    padding-bottom: 5%;
+
+
   }
   .cont1 {
     padding-left: 10%;
@@ -378,6 +381,22 @@
   }
   .logofooter{
     margin-left: -27px;
+  }
+  .contact {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .domain {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
 }
 @media screen and (min-width: 746px) and (max-width: 1025px) {
