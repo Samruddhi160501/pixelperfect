@@ -2,8 +2,6 @@
   background-color: rgba(255, 255, 255, 1);
   text-align: center;
   margin-bottom: 0;
-  margin-left: 24px;
-  margin-right: 24px;
 }
 .line {
   border: 2px solid rgba(4, 4, 4, 1);
@@ -25,7 +23,6 @@
 .card {
   display: flex;
   flex-direction: row;
-  
 }
 
 .cardHighlighted {
@@ -35,21 +32,14 @@
   border-left: 1px solid rgba(224, 224, 224, 1);
   border-right: 1px solid rgba(224, 224, 224, 1);
 }
-.floatText {
-  margin-left: 5%;
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 28px;
-  letter-spacing: 0em;
-  text-align: left;
-  max-width: 70%;
-}
 
 @media screen and (max-width: 391px) {
   .designSystem {
     max-width: 90%;
     min-height: 284px;
     margin-top: 20%;
+    margin-left: 24px;
+    margin-right: 24px;
   }
   .designContainer {
     display: flex;
@@ -100,7 +90,6 @@
     padding-top: 15px;
     display: flex;
     flex-direction: row;
-
   }
   .cardHighlighted {
     min-width: 20%;
@@ -115,14 +104,12 @@
     padding-left: 5%;
     flex-direction: column;
     text-align: left;
-
   }
-  .floatText {
+  /* .floatText {
     padding-top: 0;
     max-width: 100%;
     margin-top: 0;
-  }
-  
+  } */
 }
 @media screen and (min-width: 746px) and (max-width: 1025px) {
   .heading3 {
@@ -145,31 +132,68 @@
     line-height: 32px;
     letter-spacing: 0em;
     text-align: left;
+    padding-left: 3%;
   }
   .designSystem {
-    height: 228px;
-    margin-left: 150px;
-    margin-right: 102px;
-    padding: 2%;
+    height: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 2%;
   }
   .cardHighlighted {
     font-size: 20px;
     font-weight: 300;
     text-align: left;
+    min-width: 20%;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+  }
+  .card {
+    text-align: left;
+
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .floatText {
+    padding-left: 5%;
+  }
+  .designContainer {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
   }
 }
 @media screen and (min-width: 1026px) and (max-width: 1441px) {
+  .designSystem {
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: center;
+  }
   .container {
     margin: 0%;
     font-family: "Haffer SQ XH";
     padding: 0%;
     width: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
   }
-  .heading {
-    padding-left: 190px;
-    padding-right: 190px;
-    padding-top: 100px;
-    padding-bottom: 88px;
+  .heading2 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.05em;
+    text-align: center;
+  }
+  .designContainer {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
   }
   .text {
     font-size: 60px;
@@ -185,17 +209,41 @@
     letter-spacing: 0em;
     text-align: center;
   }
+  .cardHighlighted {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+    padding-right: 5%;
+    min-width: 20%;
+    border-left: 1px solid rgba(224, 224, 224, 1);
+    border-right: 1px solid rgba(224, 224, 224, 1);
+
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+  }
+  .card {
+    padding-left: 5%;
+    text-align: left;
+    padding-right: 5%;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+  }
+  .floatText {
+    padding-left: 2%;
+  }
 }
 @media screen and (min-width: 1442px) and (max-width: 1920px) {
   .designSystem {
     background-color: rgba(255, 255, 255, 1);
     text-align: center;
-    min-height: 220px;
-    margin-left: 290px;
-    margin-right: 290px;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 0;
     padding: 0;
-    max-width: 70%;
   }
   .line {
     border: 2px solid rgba(4, 4, 4, 1);
@@ -207,6 +255,7 @@
     font-weight: 400;
     line-height: 60px;
     letter-spacing: -0.05em;
+    text-align: center;
   }
   .designContainer {
     padding-top: 15px;
@@ -219,18 +268,29 @@
     flex-direction: row;
     justify-content: space-between;
     padding-left: 5px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+  
   }
 
   .cardHighlighted {
     display: flex;
-    max-width: max-content;
     flex-direction: row;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     border-left: 1px solid rgba(224, 224, 224, 1);
     border-right: 1px solid rgba(224, 224, 224, 1);
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 20%;
   }
   .floatText {
-    margin-left: 10px;
+    margin-left: 5%;
   }
 }

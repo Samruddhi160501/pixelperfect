@@ -10,7 +10,7 @@
 .socialMedia {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .socialMediaText {
   font-size: 18px;
@@ -47,6 +47,8 @@
   text-align: left;
   color: rgba(255, 255, 255, 1);
   padding-top: 3%;
+  border-bottom: 1px solid white;
+  width: max-content;
 }
 .menuList {
   font-size: 18px;
@@ -66,8 +68,6 @@
   padding-top: 5%;
 }
 .cont4 {
-  margin-left: 100px;
-  padding-top: 5%;
 }
 .contact {
   padding: 0;
@@ -80,9 +80,7 @@
   color: rgba(255, 255, 255, 1);
 }
 .domain {
-  margin: 0%;
-
-  padding: 0%;
+  
   font-size: 16px;
   font-weight: 300;
   line-height: 28px;
@@ -122,10 +120,101 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    max-height: 116px;
     max-width: 80%;
+    /* padding-top: 10%;
+    padding-bottom: 10%; */
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    padding-right: 10%;
+
+  }
+  .logofooter {
+    max-width: 240px;
+    padding-left: 0px;
+    margin-left: -24px;
+  }
+
+  .menuList {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+  }
+  .add {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
     padding-top: 10%;
-    padding-bottom: 10%;
+  }
+  .map {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .copyright {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .contact {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: rgba(163, 163, 163, 1);
+  }
+  .domain {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+  }
+  .address {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(163, 163, 163, 1);
+  }
+}
+@media screen and (min-width: 392px) and (max-width: 632px) {
+  .socialMediaText {
+    width: 50%;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 5px;
+  }
+  .socialMedia {
+    justify-content:start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 0px;
+    padding-right: 5%;
   }
   .footer {
     display: flex;
@@ -196,13 +285,16 @@
   }
 }
 
-@media screen and (min-width: 392px) and (max-width: 745px) {
+@media screen and (min-width: 633px) and (max-width: 745px) {
   .footer {
     background-color: rgba(4, 4, 4, 1);
     padding-top: 50px;
+    flex-wrap: wrap;
   }
   .cont1 {
-    padding-left: 65px;
+    padding-left: 10%;
+    flex-wrap: wrap;
+
   }
   .con2 {
     font-size: 18px;
@@ -212,6 +304,8 @@
     text-align: left;
     margin-bottom: 0;
     padding-bottom: 0;
+    flex-wrap: wrap;
+
   }
   .cont3 {
     font-size: 18px;
@@ -222,6 +316,8 @@
     margin-left: 450px;
     margin-top: 0;
     padding-top: 0;
+    flex-wrap: wrap;
+
   }
   .cont4updated {
     position: absolute;
@@ -229,6 +325,8 @@
     padding-left: 65px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+
   }
   .cont42 {
     padding-top: 5%;
@@ -260,11 +358,11 @@
     text-align: left;
   }
   .socialMedia {
-    padding-left: 62px;
-    padding-right: 62px;
+    padding-left: 10%;
+    padding-right: 10%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .line {
     margin-top: 12%;
@@ -287,13 +385,17 @@
     background-color: rgba(4, 4, 4, 1);
     flex-wrap: wrap;
   }
+  .socialMedia{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 
   .socialMediaText {
     font-size: 24px;
     font-weight: 300;
   }
   .cont1 {
-    padding-left: 162px;
+    padding-left: 2%;
     display: block;
     flex-direction: column;
     max-width: 338px;
@@ -307,6 +409,8 @@
     line-height: 28px;
     letter-spacing: 0em;
     text-align: left;
+    padding-left: 5%;
+
   }
   .map {
     font-size: 14px;
@@ -314,6 +418,8 @@
     line-height: 22px;
     letter-spacing: 0em;
     text-align: left;
+    margin-left: 5%;
+
   }
   .menuList {
     font-size: 16px;
@@ -325,22 +431,23 @@
   .cont2 {
     min-width: 108px;
     margin-left: 100px;
-    padding-top: 5%;
+    padding-top: 7%;
   }
   .cont3 {
     min-width: 147px;
     margin-left: 100px;
-    padding-top: 5%;
+    padding-top: 7%;
   }
   .cont4 {
-    display: none;
-  }
-  .cont4updated {
     padding-left: 162px;
-    margin-top: 72px;
+      }
+  .cont4updated {
+    padding-left: 4%;
+    margin-top: 2%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  
   }
   .contact {
     font-size: 16px;
@@ -355,6 +462,8 @@
     line-height: 26px;
     letter-spacing: 0em;
     text-align: left;
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
   .copyright {
     font-size: 14px;
@@ -362,6 +471,7 @@
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
+    padding-left: 4%;
   }
   .line {
     margin-top: 4%;
@@ -373,7 +483,7 @@
     padding-left: 100px;
   }
 }
-@media screen and (min-width: 1026px) and (max-width: 1441px) {
+@media screen and (min-width: 1026px) and (max-width: 1283px) {
   .footer {
     background-color: rgba(4, 4, 4, 1);
     padding-top: 100px;
@@ -442,8 +552,9 @@
     padding-top: 5%;
   }
   .cont4 {
-    margin-left: 100px;
-    padding-top: 5%;
+    padding-top: 6.5%;
+    margin-left: 5%;
+    padding-left: 7%;
   }
   .contact {
     padding: 0;
@@ -473,14 +584,124 @@
     letter-spacing: 0em;
     text-align: left;
     color: rgba(163, 163, 163, 1);
-    padding-left: 162px;
+    padding-left: 10%;
     padding-top: 0%;
   }
   .line {
     margin-top: 4%;
     background-color: rgba(31, 31, 31, 1);
-    height: 2px; /* Set the height of the hr */
-    border: none; /* Remove the default border */
+    height: 2px; 
+    border: none; 
+  }
+}
+@media screen and (min-width: 1284px) and (max-width: 1441px) {
+  .footer {
+    background-color: rgba(4, 4, 4, 1);
+    padding-top: 100px;
+    margin: 0;
+    padding-bottom: 2%;
+    border-top: 2px solid rgba(31, 31, 31, 1);
+    border-bottom: 2px solid rgba(31, 31, 31, 1);
+    font-family: "Haffer SQ XH";
+  }
+  .socialMedia {
+    padding-left: 162px;
+    padding-right: 162px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .socialMediaText {
+    font-size: 36px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+  }
+  .cont1 {
+    padding-left: 162px;
+    display: block;
+    flex-direction: column;
+    max-width: 338px;
+    text-align: left;
+    padding-top: 5%;
+  }
+
+  .address {
+    padding-top: 0;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    max-width: 280px;
+    max-height: 67px;
+  }
+  .map {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 3%;
+  }
+  .menuList {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+  }
+  .cont2 {
+    margin-left: 100px;
+    padding-top: 5%;
+  }
+  .cont3 {
+    margin-left: 100px;
+    padding-top: 5%;
+  }
+  .cont4 {
+    padding-top: 6.5%;
+    margin-left: 5%;
+  }
+  .contact {
+    padding: 0;
+    margin: 0%;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+  }
+  .domain {
+    margin: 0%;
+
+    padding: 0%;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(163, 163, 163, 1);
+  }
+  .copyright {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(163, 163, 163, 1);
+    padding-left: 10%;
+    padding-top: 0%;
+  }
+  .line {
+    margin-top: 4%;
+    background-color: rgba(31, 31, 31, 1);
+    height: 2px; 
+    border: none; 
   }
 }
 @media screen and (min-width: 1442px) and (max-width: 1920px) {
@@ -536,7 +757,7 @@
     letter-spacing: 0em;
     text-align: left;
     color: rgba(255, 255, 255, 1);
-    padding-top: 3%;
+    padding-top: 10%;
   }
   .menuList {
     font-size: 20px;
@@ -556,8 +777,8 @@
     padding-top: 5%;
   }
   .cont4 {
-    margin-left: 100px;
-    padding-top: 5%;
+    padding-top: 6.5%;
+    margin-left: 5%;
   }
   .contact {
     padding: 0;
@@ -596,4 +817,5 @@
     height: 2px; /* Set the height of the hr */
     border: none; /* Remove the default border */
   }
+  
 }

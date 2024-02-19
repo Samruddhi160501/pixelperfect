@@ -5,12 +5,12 @@ import logo from "../../assets/LOGO.png";
 import FooterMobile from "./FooterMobile";
 function Footer() {
   const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 1024);
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 390);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 630);
 
   useEffect(() => {
     function handleResize() {
       setIsSmallScreen(window.innerWidth <= 1024);
-      setIsMobile(window.innerWidth <= 390);
+      setIsMobile(window.innerWidth <= 630);
     }
 
     window.addEventListener("resize", handleResize);
@@ -31,8 +31,14 @@ function Footer() {
               </li>
             ))}
           </div>
+
           <div
-            style={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              flexWrap: "wrap",
+              paddingBottom: "10%",
+            }}
           >
             <div className={classes.cont1}>
               <img src={logo} alt="logo" className={classes.logofooter} />

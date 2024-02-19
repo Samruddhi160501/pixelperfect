@@ -93,12 +93,26 @@
   }
 }
 @media screen and (min-width: 746px) and (max-width: 1025px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    padding-right: 5%;
+  }
+  .con {
+    padding-left: 10%;
+    max-width: 40%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+
   .heading {
     font-size: 36px;
     font-weight: 400;
     line-height: 48px;
     letter-spacing: -0.05em;
     text-align: left;
+    padding-top: 0;
+    margin-top: 0;
   }
   .para {
     font-size: 20px;
@@ -110,25 +124,55 @@
   .connectbtn {
     text-align: center;
   }
+  .imgvector {
+  }
 }
 @media screen and (min-width: 1026px) and (max-width: 1441px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    padding-right: 10%;
+    height: 20%;
+  }
+
+  .con {
+    max-width: 60%;
+    padding-left: 10%;
+    padding-top: 0%;
+    padding-bottom: 5%;
+  }
+  .heading {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    max-width: 80%;
+  }
+  .para {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
 }
 @media screen and (min-width: 1442px) and (max-width: 1920px) {
   .container {
     background-color: rgba(0, 14, 140, 1);
-    min-height: 444px;
-    padding-left: 200px;
+    padding-left: 10%;
     text-align: start;
     display: flex;
     flex-direction: row;
     font-family: "Haffer SQ XH";
   }
   .con {
-    padding-top: 100px;
+    padding-top: 5%;
+    max-width: 50%;
+    padding-bottom: 5%;
   }
   .heading {
     margin: 0%;
-    width: 500px;
     font-size: 60px;
     font-weight: 400;
     line-height: 72px;

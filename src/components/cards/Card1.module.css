@@ -1,17 +1,9 @@
 .contianer {
   font-family: "Haffer SQ XH";
-  /* padding-left: 30px;
-  padding-right: 30px; */
-  min-width: 320px;
-  max-height: 108px;
 }
 .contianerHighlighted {
   border-right: 1px solid rgba(224, 224, 224, 1);
   border-left: 1px solid rgba(224, 224, 224, 1);
-  /* padding-left: 30px;
-  padding-right: 30px; */
-  min-width: 320px;
-  max-height: 108px;
 }
 
 @media screen and (max-width: 391px) {
@@ -20,8 +12,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 5px;
-    /* min-width: 272px; */
-    /* max-height: 124px; */
   }
   .heading {
     font-size: 20px;
@@ -51,22 +41,18 @@
     font-family: "Haffer SQ XH";
     flex-direction: row;
     flex-wrap: wrap;
-    padding-bottom: 20px;
-    /* margin-left: 40px; */
-    min-width: 272px;
-    max-height: 124px;
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
   }
 
   .heading {
+    margin-top: 0;
     font-size: 20px;
     font-weight: 300;
     line-height: 32px;
     letter-spacing: 0em;
     text-align: left;
-    /* max-width: 196px;
-    max-height: 100px; */
-    padding-bottom: 20px;
-    border-bottom: 1px solid rgba(224, 224, 224, 1);
+    padding-bottom: 5%;
+    width: 70%;
   }
   .para {
     font-size: 16px;
@@ -74,23 +60,25 @@
     line-height: 28px;
     letter-spacing: 0em;
     text-align: left;
+    margin: 0;
+    padding-top: 5%;
+    padding-bottom: 0%;
   }
 }
 @media screen and (min-width: 746px) and (max-width: 1025px) {
   .contianer {
     font-family: "Haffer SQ XH";
-    /* padding-left: 30px;
-    padding-right: 30px; */
-    min-width: 136px;
-    max-height: 54px;
+    min-width: 18%;
+    width: 25%;
+    padding-left: 2%;
   }
   .contianerHighlighted {
     border-right: 1px solid rgba(224, 224, 224, 1);
     border-left: 1px solid rgba(224, 224, 224, 1);
-    /* padding-left: 30px;
-    padding-right: 30px; */
-    min-width: 136px;
-    max-height: 74px;
+    padding-left: 5%;
+    padding-right: 5%;
+    min-width: 20%;
+    width: 25%;
   }
   .heading {
     font-size: 20px;
@@ -110,16 +98,11 @@
   }
 }
 @media screen and (min-width: 1026px) and (max-width: 1441px) {
-  /* Styles for large devices */
   .contianer {
-    /* padding-left: 30px;
-    padding-right: 30px; */
     min-width: 235px;
     max-height: 108px;
   }
   .contianerHighlighted {
-    /* padding-left: 30px;
-    padding-right: 30px; */
     min-width: 235px;
     max-height: 108px;
   }
@@ -145,7 +128,6 @@
 }
 
 @media screen and (min-width: 1442px) and (max-width: 1920px) {
-  /* Styles for extra large devices */
   .heading {
     font-size: 24px;
     font-weight: 300;
@@ -163,5 +145,16 @@
     letter-spacing: 0em;
     text-align: left;
     color: rgba(51, 51, 51, 1);
+  }
+  .contianer{
+    padding-left: 2%;
+    padding-right: 2%;
+    min-width: 20%;
+
+  }
+  .contianerHighlighted{
+    min-width: 20%;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 }

@@ -66,8 +66,8 @@
     line-height: 28px;
     letter-spacing: 0em;
     text-align: center;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 25%;
+    padding-right: 25%;
   }
 }
 
@@ -97,6 +97,7 @@
     justify-content: center;
     display: flex;
     flex-direction: column;
+    padding-top: 5%;
   }
   .text {
     margin: 0;

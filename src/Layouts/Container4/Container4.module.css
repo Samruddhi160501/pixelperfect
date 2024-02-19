@@ -96,22 +96,18 @@
 
 @media screen and (min-width: 392px) and (max-width: 745px) {
   .container {
-    padding-bottom: 50px;
+    padding-bottom: 10%;
     padding-left: 54px;
     padding-right: 64px;
-    min-height: 370px;
     font-family: "Haffer SQ XH";
     display: flex;
     flex-direction: row;
   }
   .leftContainer {
     padding-bottom: 0px;
-    padding-top: 100px;
-    height: 340px;
-    gap: 24px;
+    padding-top: 10%;
     text-align: left;
-    min-width: 296px;
-    min-height: 216px;
+    min-width: 50%;
   }
   .heading {
     font-size: 36px;
@@ -119,14 +115,14 @@
     line-height: 46px;
     letter-spacing: -0.05em;
     text-align: left;
-    max-width:80%;
+    max-width: 80%;
   }
   .para {
     display: none;
   }
   .img {
-    width: 280px;
-    height: 370px;
+    width: 50%;
+    height: 30%;
     margin-left: 0;
   }
   .btn {
@@ -138,17 +134,17 @@
     line-height: 28px;
     letter-spacing: 0em;
     text-align: left;
-    color:rgba(163, 163, 163, 1);
+    color: rgba(163, 163, 163, 1);
   }
 }
 @media screen and (min-width: 746px) and (max-width: 1025px) {
   .container {
     display: flex;
     flex-direction: row;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 100px;
-    padding-right: 200px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 5%;
     height: max-content;
     font-family: "Haffer SQ XH";
   }
@@ -158,13 +154,9 @@
     margin-left: 10%;
   }
   .leftContainer {
-    padding-bottom: 200px;
-    padding-top: 100px;
-    height: 340px;
-    gap: 24px;
+    padding-bottom: 5%;
+    padding-top: 5%;
     text-align: left;
-    min-width: 368px;
-    min-height: 216px;
   }
   .small {
     font-family: "Haffer SQ XH";
@@ -192,16 +184,14 @@
   }
 }
 @media screen and (min-width: 1026px) and (max-width: 1441px) {
-}
-@media screen and (min-width: 1442px) and (max-width: 1920px) {
   .container {
     background-color: rgba(4, 4, 4, 1);
     display: flex;
     flex-direction: row;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    padding-left: 100px;
-    padding-right: 200px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
     height: max-content;
     font-family: "Haffer SQ XH";
   }
@@ -211,13 +201,75 @@
     margin-left: 10%;
   }
   .leftContainer {
-    padding-bottom: 200px;
-    padding-top: 100px;
-    height: 340px;
-    gap: 24px;
+    padding-top: 15%;
+    min-width: 50%;
+    justify-content: left;
     text-align: left;
-    min-width: 651px;
-    min-height: 216px;
+  }
+  .small {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+    color: rgba(163, 163, 163, 1);
+  }
+  .heading {
+    margin: 0;
+    color: rgba(255, 255, 255, 1);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.05em;
+    text-align: left;
+  }
+  .para {
+    color: rgba(163, 163, 163, 1);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .btn {
+    width: 153px;
+    height: 56px;
+    padding: 10px, 32px, 10px, 32px;
+    border-radius: 100px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: rgba(4, 4, 4, 1);
+    color: rgba(255, 255, 255, 1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+  
+  }
+}
+@media screen and (min-width: 1442px) and (max-width: 1920px) {
+  .container {
+    background-color: rgba(4, 4, 4, 1);
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 20%;
+    height: max-content;
+    font-family: "Haffer SQ XH";
+  }
+  .img {
+    width: 510px;
+    height: 700px;
+    margin-left: 10%;
+  }
+  .leftContainer {
+    padding-bottom: 10%;
+    padding-top: 10%;
+    text-align: left;
+    max-width: 60%;
+    min-width: 60%;
+   
   }
   .small {
     font-size: 24px;

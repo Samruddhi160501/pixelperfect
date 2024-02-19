@@ -40,7 +40,7 @@ function Carousel({ container }) {
             maxWidth: "100%",
             overflow: "hidden",
             paddingLeft: `${
-              isSmallScreen ? "0px" : isMobileScreen ? "0px" : "167px"
+              isSmallScreen ? "0px" : isMobileScreen ? "0px" : "10%"
             }`,
             paddingTop: "5%",
             display: "flex",
