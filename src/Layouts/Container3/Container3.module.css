@@ -1,33 +1,29 @@
 .container {
   background-color: rgba(0, 14, 140, 1);
-  min-height: 444px;
-  padding-left: 200px;
+  padding-left: 24px;
   text-align: start;
-  display: flex;
-  flex-direction: row;
   font-family: "Haffer SQ XH";
 }
 .con {
-  padding-top: 100px;
+  padding-top: 5%;
+  padding-bottom: 15%;
 }
 .heading {
-  margin: 0%;
-  width: 500px;
-  font-size: 60px;
+  font-size: 32px;
   font-weight: 400;
-  line-height: 72px;
+  line-height: 42px;
   letter-spacing: -0.05em;
   text-align: left;
   color: rgba(255, 255, 255, 1);
+  padding: 0;
 }
 .para {
-  margin-top: 2%;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 300;
-  line-height: 36px;
+  line-height: 26px;
   letter-spacing: 0em;
   text-align: left;
-  color: rgba(224, 224, 224, 1);
+  color: rgba(255, 255, 255, 1);
 }
 .connectbtn {
   background-color: rgba(0, 14, 140, 1);
@@ -48,7 +44,55 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 391px) {
+  .container {
+    padding-left: 24px;
+    padding-right: 24px;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .imgvector {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 392px) and (max-width: 745px) {
+  .container {
+    padding-left: 54px;
+  }
+  .con {
+    padding-top: 1%;
+    padding-bottom: 5%;
+  }
+  .heading {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    width: 50%;
+    padding: 0;
+    margin-bottom: 1%;
+  }
+  .para {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+    padding: 0%;
+  }
+  .connectbtn {
+    margin-top: 4%;
+    text-align: center;
+    height: 48px;
+  }
+  .imgvector {
+    display: none;
+  }
+}
+@media screen and (min-width: 746px) and (max-width: 1025px) {
   .heading {
     font-size: 36px;
     font-weight: 400;
@@ -67,56 +111,56 @@
     text-align: center;
   }
 }
-
-@media screen and (max-width: 744px) {
+@media screen and (min-width: 1026px) and (max-width: 1441px) {
+}
+@media screen and (min-width: 1442px) and (max-width: 1920px) {
   .container {
-    padding-left: 64px;
-    padding-bottom: 64px;
-    max-height: 268px;
-    min-height: 268px;
+    background-color: rgba(0, 14, 140, 1);
+    min-height: 444px;
+    padding-left: 200px;
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+    font-family: "Haffer SQ XH";
   }
   .con {
-    padding-top: 60px;
+    padding-top: 100px;
   }
   .heading {
-    font-size: 32px;
+    margin: 0%;
+    width: 500px;
+    font-size: 60px;
     font-weight: 400;
-    line-height: 42px;
-    letter-spacing: -0.03em;
-    text-align: left;
-  }
-  .para {
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
-  }
-  .connectbtn {
-    text-align: center;
-    height: 48px;
-  }
-  .imgvector {
-    margin-left: 10px;
-    overflow: hidden;
-    min-width: 256px;
-    min-height: 300px;
-  }
-}
-@media screen and (max-width: 390px) {
-  .heading {
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 42px;
+    line-height: 72px;
     letter-spacing: -0.05em;
     text-align: left;
-    max-width: 342px;
+    color: rgba(255, 255, 255, 1);
   }
-  .container{
-    padding-left: 24px;
-    padding-right: 24px;
-    flex-direction: column;
-    flex-wrap: wrap;
-
+  .para {
+    margin-top: 2%;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(224, 224, 224, 1);
+  }
+  .connectbtn {
+    background-color: rgba(0, 14, 140, 1);
+    width: 168px;
+    height: 56px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 5%;
+  }
+  .imgvector {
+    margin-left: 10%;
+    overflow: hidden;
   }
 }

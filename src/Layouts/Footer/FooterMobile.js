@@ -27,7 +27,7 @@ function FooterMobile() {
           </li>
         ))}
       </div>
-      <div style={{ paddingTop: "50px", paddingLeft: "20px" }}>
+      <div >
         <p className={classes.domain}>Business enquiries:</p>
         <p className={classes.contact}>eshani@spinachexperience.design</p>
         <p className={classes.contact}>+91 9821297209</p>
@@ -35,7 +35,7 @@ function FooterMobile() {
       <br></br>
       <br></br>
       <br></br>
-      <div style={{ paddingTop: "50px", paddingLeft: "20px" }}>
+      <div >
         <p className={classes.domain}>Career enquiries:</p>
         <p className={classes.contact}>fedora@spinachexperience.design</p>
         <p className={classes.contact}>+91 8097260369</p>

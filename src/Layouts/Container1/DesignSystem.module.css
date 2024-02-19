@@ -1,0 +1,121 @@
+.heading {
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgba(4, 4, 4, 1);
+}
+.text {
+  color: rgba(255, 255, 255, 1);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 46px;
+  letter-spacing: -0.05em;
+  text-align: left;
+}
+.para {
+  color: rgba(163, 163, 163, 1);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+@media screen and (max-width: 391px) {
+  .heading {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (min-width: 392px) and (max-width: 745px) {
+  /* Styles for small devices */
+  .heading {
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  .text {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: -0.05em;
+    text-align: left;
+    padding-left: none;
+    padding-right: none;
+  }
+  .para {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 746px) and (max-width: 1025px) {
+  /* Styles for medium devices */
+  .text {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -0.05em;
+    text-align: center;
+  }
+  .para {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+}
+
+@media screen and (min-width: 1026px) and (max-width: 1441px) {
+  /* Styles for large devices */
+  .text {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -0.05em;
+    text-align: center;
+  }
+  .para {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-left: 340px;
+    padding-right: 340px;
+  }
+}
+@media screen and (min-width: 1442px) and (max-width: 1920px) {
+  .heading {
+    background-color: rgba(4, 4, 4, 1);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .text {
+    margin: 0;
+    font-size: 74px;
+    font-size: 74px;
+    font-weight: 400;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+  }
+  .para {
+    max-width: 800px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(163, 163, 163, 1);
+    padding-left: 380px;
+    padding-right: 380px;
+  }
+}

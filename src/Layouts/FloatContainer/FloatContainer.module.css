@@ -1,0 +1,236 @@
+.designSystem {
+  background-color: rgba(255, 255, 255, 1);
+  text-align: center;
+  margin-bottom: 0;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.line {
+  border: 2px solid rgba(4, 4, 4, 1);
+  width: 100%;
+  text-align: center;
+}
+.heading2 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+.designContainer {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.cardHighlighted {
+  display: flex;
+  flex-direction: row;
+  padding-left: 5px;
+  border-left: 1px solid rgba(224, 224, 224, 1);
+  border-right: 1px solid rgba(224, 224, 224, 1);
+}
+.floatText {
+  margin-left: 5%;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  max-width: 70%;
+}
+
+@media screen and (max-width: 391px) {
+  .designSystem {
+    max-width: 90%;
+    min-height: 284px;
+    margin-top: 20%;
+  }
+  .designContainer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .cardHighlighted {
+    text-align: left;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid rgba(224, 224, 224, 1);
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .card {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 392px) and (max-width: 745px) {
+  .heading2 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .designSystem {
+    height: 228px;
+    margin-left: 52px;
+    margin-right: 52px;
+    max-width: 640px;
+    margin-bottom: 10px;
+    min-height: 132px;
+    margin-top: 5%;
+  }
+  .designContainer {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+
+  }
+  .cardHighlighted {
+    min-width: 20%;
+    height: 70%;
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .card {
+    padding-left: 5%;
+    flex-direction: column;
+    text-align: left;
+
+  }
+  .floatText {
+    padding-top: 0;
+    max-width: 100%;
+    margin-top: 0;
+  }
+  
+}
+@media screen and (min-width: 746px) and (max-width: 1025px) {
+  .heading3 {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: -0.05em;
+    text-align: center;
+  }
+  .heading2 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: -0.05em;
+    text-align: center;
+  }
+  .card {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .designSystem {
+    height: 228px;
+    margin-left: 150px;
+    margin-right: 102px;
+    padding: 2%;
+  }
+  .cardHighlighted {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 1026px) and (max-width: 1441px) {
+  .container {
+    margin: 0%;
+    font-family: "Haffer SQ XH";
+    padding: 0%;
+    width: 100%;
+  }
+  .heading {
+    padding-left: 190px;
+    padding-right: 190px;
+    padding-top: 100px;
+    padding-bottom: 88px;
+  }
+  .text {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: -0.05em;
+    text-align: center;
+  }
+  .para {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1442px) and (max-width: 1920px) {
+  .designSystem {
+    background-color: rgba(255, 255, 255, 1);
+    text-align: center;
+    min-height: 220px;
+    margin-left: 290px;
+    margin-right: 290px;
+    margin-bottom: 0;
+    padding: 0;
+    max-width: 70%;
+  }
+  .line {
+    border: 2px solid rgba(4, 4, 4, 1);
+    width: 100%;
+    text-align: center;
+  }
+  .heading2 {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -0.05em;
+  }
+  .designContainer {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5px;
+  }
+
+  .cardHighlighted {
+    display: flex;
+    max-width: max-content;
+    flex-direction: row;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-left: 1px solid rgba(224, 224, 224, 1);
+    border-right: 1px solid rgba(224, 224, 224, 1);
+  }
+  .floatText {
+    margin-left: 10px;
+  }
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "../../Pages/OurService/OurService.module.css";
+import classes from "./CarouselContainer.module.css";
 import Carousel from "../../components/Carousel/Carousel";
 function CaraouselContainer() {
   return (

@@ -40,9 +40,9 @@ function Carousel({ container }) {
             maxWidth: "100%",
             overflow: "hidden",
             paddingLeft: `${
-              isSmallScreen ? "64px" : isMobileScreen ? "24px" : "167px"
+              isSmallScreen ? "0px" : isMobileScreen ? "0px" : "167px"
             }`,
-            paddingTop: "2%",
+            paddingTop: "5%",
             display: "flex",
             flexDirection: "column",
           }}

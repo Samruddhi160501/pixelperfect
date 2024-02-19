@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "../../Pages/OurService/OurService.module.css";
+import classes from "./DesignSystem.module.css";
 function DesignSystem() {
   return (
     <div className={classes.heading}>

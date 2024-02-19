@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import classes from "../../Pages/OurService/OurService.module.css";
+import classes from "./FloatContainer.module.css";
 import { designmenu } from "../../utils/data";
 
 function FloatContainer() {
@@ -33,7 +33,13 @@ function FloatContainer() {
             }
           >
             <p>{item.id}</p>
-            <p className={classes.floatText}>{item.text}</p>
+            <p
+              className={
+                item.id === "/02" ? classes.floatText : classes.floatText
+              }
+            >
+              {item.text}
+            </p>
           </div>
         ))}
       </div>

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import classes from "./Container2.module.css";
-import { data1 ,SMALL} from "../../utils/data";
+import { data1, SMALL } from "../../utils/data";
 import Card1 from "../../components/cards/Card1";
 import Carousel from "../../components/Carousel/Carousel";
 function Container2() {
@@ -51,6 +51,14 @@ function Container2() {
         involves careful planning, collaboration, and iterative refinement.
       </p>
       <Carousel container={SMALL} />
+      <hr
+        style={{
+          width: "100%",
+          marginTop: "5%",
+          textAlign: "center",
+          border: "1px solid rgba(224, 224, 224, 1)",
+        }}
+      ></hr>
     </div>
   );
 }

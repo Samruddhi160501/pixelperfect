@@ -48,3 +48,12 @@ button {
     min-height: 300px;
   }
 }
+
+@media screen and (min-width: 392px) and (max-width: 745px) {
+}
+@media screen and (min-width: 746px) and (max-width: 1025px) {
+}
+@media screen and (min-width: 1026px) and (max-width: 1441px) {
+}
+@media screen and (min-width: 1442px) and (max-width: 1920px) {
+}

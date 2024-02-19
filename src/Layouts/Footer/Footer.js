@@ -1,4 +1,4 @@
-import React,{useEffect,useState} from "react";
+import React, { useEffect, useState } from "react";
 import classes from "./Footer.module.css";
 import { socialMedia, menu, menu2 } from "../../utils/data";
 import logo from "../../assets/LOGO.png";
@@ -13,15 +13,15 @@ function Footer() {
       setIsMobile(window.innerWidth <= 390);
     }
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
   return (
     <>
       {isMobile ? (
-       <FooterMobile/>
+        <FooterMobile />
       ) : (
         <div className={classes.footer}>
           <div className={classes.socialMedia}>
@@ -65,9 +65,7 @@ function Footer() {
                   </p>
                   <p className={classes.contact}>+91 9821297209</p>
                 </div>
-                <br></br>
-                <br></br>
-                <br></br>
+
                 <div className={classes.cont42}>
                   <p className={classes.domain}>Career enquiries:</p>
                   <p className={classes.contact}>
